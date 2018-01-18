@@ -1,0 +1,16 @@
+PODS:
+  - TranslucentView (0.1.0)
+
+DEPENDENCIES:
+  - TranslucentView (from `../`)
+
+EXTERNAL SOURCES:
+  TranslucentView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TranslucentView: 01cc2474fdee519290408062af711849b7ee0a3d
+
+PODFILE CHECKSUM: b764e661fb93ef99eaf16c73edd96aadeb22d1f8
+
+COCOAPODS: 1.2.1

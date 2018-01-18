@@ -1,0 +1,6 @@
+framework module TranslucentView {
+  umbrella header "TranslucentView-umbrella.h"
+
+  export *
+  module * { export * }
+}
