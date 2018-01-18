@@ -8,13 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		077C66A09DE553D6C2ED7EF5E9ADFF6F /* Pods-TranslucentView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FAC71F35494BE53AF8500FAA0E881E5A /* Pods-TranslucentView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2955148F3595C463725A50ED4556314A /* TranslucentView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A24FE864A61A4DBF526F45C268BE1F4 /* TranslucentView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		326EF5021408D9107DBA2D5213960C8D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		4F90D4DB68C0D279336BE53724652897 /* TranslucentView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 761A4CF322F777EACC10118C3A044253 /* TranslucentView-dummy.m */; };
 		50C8B1D954BEDBBCCBB31A5402E18D34 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		533C2140C659A37ED6D315628AAAE08E /* UIViewController+Translucent.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ECC9072DCC2CE1599EAC4CB662299FC /* UIViewController+Translucent.m */; };
 		62D26775FE193E765E764B201AC081EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		68C24C0005BCD5CD820AEC1591AE7914 /* Pods-TranslucentView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FD746E5A36F7B5B302480384031188AC /* Pods-TranslucentView_Tests-dummy.m */; };
-		C5FE2B65B506683EC80AE29DBB35E37F /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F812B27BA7D9277A17A8A218D8429DF /* ReplaceMe.m */; };
+		73CDA73C20109E33002288DF /* UIView+Translucent.m in Sources */ = {isa = PBXBuildFile; fileRef = C393BEDFCD385B3741B5520DB7B35315 /* UIView+Translucent.m */; };
+		73CDA73D20109E33002288DF /* UIView+Translucent.m in Sources */ = {isa = PBXBuildFile; fileRef = C393BEDFCD385B3741B5520DB7B35315 /* UIView+Translucent.m */; };
+		73CDA73E20109E36002288DF /* UIViewController+Translucent.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ECC9072DCC2CE1599EAC4CB662299FC /* UIViewController+Translucent.m */; };
+		73CDA73F20109E36002288DF /* UIViewController+Translucent.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ECC9072DCC2CE1599EAC4CB662299FC /* UIViewController+Translucent.m */; };
+		8390526693F5457A9769222B89CBC434 /* TranslucentView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A24FE864A61A4DBF526F45C268BE1F4 /* TranslucentView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A6513EA9D78460BE97C10B76EBDF9D9F /* TranslucentView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 761A4CF322F777EACC10118C3A044253 /* TranslucentView-dummy.m */; };
+		C59BA3BDF8DE736143842AA61AC05554 /* UIView+Translucent.h in Headers */ = {isa = PBXBuildFile; fileRef = 38E5FF18D18C4348A0BEDF572C927C1D /* UIView+Translucent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CD2DD62F3BCE037D03BE30FA4D15295A /* UIViewController+Translucent.h in Headers */ = {isa = PBXBuildFile; fileRef = 54A05912DEB4B617D83B2E8AAB49753E /* UIViewController+Translucent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC37AA9512D63159F1DEE37D65F92953 /* UIView+Translucent.m in Sources */ = {isa = PBXBuildFile; fileRef = C393BEDFCD385B3741B5520DB7B35315 /* UIView+Translucent.m */; };
 		E79AFFC1374489E3DB802CE880272FC6 /* Pods-TranslucentView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 99B83C12035AB432AC95B4C426B2DBAB /* Pods-TranslucentView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F3B7DFCAB590EFC4613E5E78250D125D /* Pods-TranslucentView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 77BC03E85710FA59EBC2A9D761A16B17 /* Pods-TranslucentView_Example-dummy.m */; };
 /* End PBXBuildFile section */
@@ -34,11 +41,13 @@
 		283A98555FAE7D24B8F9F1863F2E159B /* Pods-TranslucentView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TranslucentView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		34F91942DBA45411FA6C4768ABEFC765 /* Pods-TranslucentView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TranslucentView_Example-resources.sh"; sourceTree = "<group>"; };
 		376C80F7DC49C9A55EAF97042598DFBC /* Pods-TranslucentView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TranslucentView_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		38E5FF18D18C4348A0BEDF572C927C1D /* UIView+Translucent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+Translucent.h"; sourceTree = "<group>"; };
 		3DD02944BF3E1DFF9004E369ABF7A6FA /* Pods-TranslucentView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TranslucentView_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		3E5D944F342B70C8819166EEE7AF8CC6 /* Pods_TranslucentView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TranslucentView_Tests.framework; path = "Pods-TranslucentView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E5D944F342B70C8819166EEE7AF8CC6 /* Pods_TranslucentView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TranslucentView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		454E77B387C39A0E12DBE153312A253F /* Pods-TranslucentView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TranslucentView_Tests-resources.sh"; sourceTree = "<group>"; };
 		4A24FE864A61A4DBF526F45C268BE1F4 /* TranslucentView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TranslucentView-umbrella.h"; sourceTree = "<group>"; };
 		4AD8AD77CF051C29BA1CCFB6A9ABCB1F /* TranslucentView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TranslucentView-prefix.pch"; sourceTree = "<group>"; };
+		54A05912DEB4B617D83B2E8AAB49753E /* UIViewController+Translucent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Translucent.h"; sourceTree = "<group>"; };
 		5A239D844820F7253C5BBCD58420553B /* Pods-TranslucentView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TranslucentView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		6015D6603943696D88B0D123526C1DB4 /* Pods-TranslucentView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TranslucentView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -46,19 +55,20 @@
 		770632C291DB75AA1A9751E6D5BC3065 /* Pods-TranslucentView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TranslucentView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		77BC03E85710FA59EBC2A9D761A16B17 /* Pods-TranslucentView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TranslucentView_Example-dummy.m"; sourceTree = "<group>"; };
 		79690E0CE801EEAC618EDB3F3DF8528F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7A4E2D272BB6B3D94F1BF0707077F723 /* Pods-TranslucentView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-TranslucentView_Example.modulemap"; sourceTree = "<group>"; };
+		7A4E2D272BB6B3D94F1BF0707077F723 /* Pods-TranslucentView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TranslucentView_Example.modulemap"; sourceTree = "<group>"; };
 		8B5B58B08B035CFEEE7B622CF5EF55B7 /* Pods-TranslucentView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TranslucentView_Example-frameworks.sh"; sourceTree = "<group>"; };
 		935CF8C582559345B5212577572905C9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		99B83C12035AB432AC95B4C426B2DBAB /* Pods-TranslucentView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TranslucentView_Example-umbrella.h"; sourceTree = "<group>"; };
-		9F812B27BA7D9277A17A8A218D8429DF /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
-		B44337585C286845F1E267EBBDAEA047 /* TranslucentView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = TranslucentView.modulemap; sourceTree = "<group>"; };
+		9ECC9072DCC2CE1599EAC4CB662299FC /* UIViewController+Translucent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Translucent.m"; sourceTree = "<group>"; };
+		B44337585C286845F1E267EBBDAEA047 /* TranslucentView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = TranslucentView.modulemap; sourceTree = "<group>"; };
+		C393BEDFCD385B3741B5520DB7B35315 /* UIView+Translucent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+Translucent.m"; sourceTree = "<group>"; };
 		CC87DE7F587F8B8A3064C2C3EB8BE0BC /* TranslucentView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TranslucentView.xcconfig; sourceTree = "<group>"; };
-		CD3CB575243810A05169BD6DE4D2AC9E /* Pods-TranslucentView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-TranslucentView_Tests.modulemap"; sourceTree = "<group>"; };
+		CD3CB575243810A05169BD6DE4D2AC9E /* Pods-TranslucentView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TranslucentView_Tests.modulemap"; sourceTree = "<group>"; };
 		D003A41F42971B253420B1E55D596D65 /* Pods-TranslucentView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TranslucentView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		D4BA0446C0AB1E4014CB7D03D25CC096 /* Pods-TranslucentView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TranslucentView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		DBAFD38251DE950A77000F82FB1DA06C /* TranslucentView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TranslucentView.framework; path = TranslucentView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DF67B12BEF5C8E8664C6BF106DF55857 /* Pods_TranslucentView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TranslucentView_Example.framework; path = "Pods-TranslucentView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBAFD38251DE950A77000F82FB1DA06C /* TranslucentView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TranslucentView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF67B12BEF5C8E8664C6BF106DF55857 /* Pods_TranslucentView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TranslucentView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F77C36656C102738A18A715C3FCDC37C /* Pods-TranslucentView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TranslucentView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		FAC71F35494BE53AF8500FAA0E881E5A /* Pods-TranslucentView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TranslucentView_Tests-umbrella.h"; sourceTree = "<group>"; };
 		FD746E5A36F7B5B302480384031188AC /* Pods-TranslucentView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TranslucentView_Tests-dummy.m"; sourceTree = "<group>"; };
@@ -132,15 +142,6 @@
 			path = "Example/Pods/Target Support Files/TranslucentView";
 			sourceTree = "<group>";
 		};
-		75760324F4050E728A715980C2F2E585 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				9F812B27BA7D9277A17A8A218D8429DF /* ReplaceMe.m */,
-			);
-			name = Classes;
-			path = Classes;
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
@@ -174,7 +175,7 @@
 			isa = PBXGroup;
 			children = (
 				6433BC14DA54E8FB821AC1BA9AB6012D /* Support Files */,
-				EA12B5B68672DE93B86A57A3FF9D2FBB /* TranslucentView */,
+				DCC6305773B29A180165614143B87D85 /* TranslucentView */,
 			);
 			name = TranslucentView;
 			path = ../..;
@@ -186,6 +187,17 @@
 				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D0AA775BB16213491F7039418EF9645D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				38E5FF18D18C4348A0BEDF572C927C1D /* UIView+Translucent.h */,
+				C393BEDFCD385B3741B5520DB7B35315 /* UIView+Translucent.m */,
+				54A05912DEB4B617D83B2E8AAB49753E /* UIViewController+Translucent.h */,
+				9ECC9072DCC2CE1599EAC4CB662299FC /* UIViewController+Translucent.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
@@ -206,6 +218,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		DCC6305773B29A180165614143B87D85 /* TranslucentView */ = {
+			isa = PBXGroup;
+			children = (
+				D0AA775BB16213491F7039418EF9645D /* Classes */,
+			);
+			path = TranslucentView;
+			sourceTree = "<group>";
+		};
 		DD641AD9CE52E6F264BDD761E217A6EE /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -213,15 +233,6 @@
 				A1E0C65BF434EBF159FCD463721F1BA8 /* Pods-TranslucentView_Tests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		EA12B5B68672DE93B86A57A3FF9D2FBB /* TranslucentView */ = {
-			isa = PBXGroup;
-			children = (
-				75760324F4050E728A715980C2F2E585 /* Classes */,
-			);
-			name = TranslucentView;
-			path = TranslucentView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,11 +246,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4F80C7057E3DF2335D6449DBF91A7B63 /* Headers */ = {
+		6DB9CC795700BDE64A48239AA8D378DB /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2955148F3595C463725A50ED4556314A /* TranslucentView-umbrella.h in Headers */,
+				8390526693F5457A9769222B89CBC434 /* TranslucentView-umbrella.h in Headers */,
+				C59BA3BDF8DE736143842AA61AC05554 /* UIView+Translucent.h in Headers */,
+				CD2DD62F3BCE037D03BE30FA4D15295A /* UIViewController+Translucent.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +271,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F625F9BCFDA2790B601226C4032906DD /* Build configuration list for PBXNativeTarget "TranslucentView" */;
 			buildPhases = (
-				C3C978CE500DEC5FB9986CEF49375DE1 /* Sources */,
+				D6EA1B595003DED99C6D3384CCE63133 /* Sources */,
 				BD6D69900942075A19957BA9F41523A9 /* Frameworks */,
-				4F80C7057E3DF2335D6449DBF91A7B63 /* Headers */,
+				6DB9CC795700BDE64A48239AA8D378DB /* Headers */,
 			);
 			buildRules = (
 			);
@@ -339,6 +352,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73CDA73E20109E36002288DF /* UIViewController+Translucent.m in Sources */,
+				73CDA73D20109E33002288DF /* UIView+Translucent.m in Sources */,
 				F3B7DFCAB590EFC4613E5E78250D125D /* Pods-TranslucentView_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -347,16 +362,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73CDA73F20109E36002288DF /* UIViewController+Translucent.m in Sources */,
+				73CDA73C20109E33002288DF /* UIView+Translucent.m in Sources */,
 				68C24C0005BCD5CD820AEC1591AE7914 /* Pods-TranslucentView_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C3C978CE500DEC5FB9986CEF49375DE1 /* Sources */ = {
+		D6EA1B595003DED99C6D3384CCE63133 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C5FE2B65B506683EC80AE29DBB35E37F /* ReplaceMe.m in Sources */,
-				4F90D4DB68C0D279336BE53724652897 /* TranslucentView-dummy.m in Sources */,
+				A6513EA9D78460BE97C10B76EBDF9D9F /* TranslucentView-dummy.m in Sources */,
+				DC37AA9512D63159F1DEE37D65F92953 /* UIView+Translucent.m in Sources */,
+				533C2140C659A37ED6D315628AAAE08E /* UIViewController+Translucent.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

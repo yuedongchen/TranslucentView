@@ -7,6 +7,7 @@
 //
 
 #import "CYDViewController.h"
+#import "UIView+Translucent.h"
 
 @interface CYDViewController ()
 

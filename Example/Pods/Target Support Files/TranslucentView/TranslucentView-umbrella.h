@@ -10,6 +10,8 @@
 #endif
 #endif
 
+#import "UIView+Translucent.h"
+#import "UIViewController+Translucent.h"
 
 FOUNDATION_EXPORT double TranslucentViewVersionNumber;
 FOUNDATION_EXPORT const unsigned char TranslucentViewVersionString[];
