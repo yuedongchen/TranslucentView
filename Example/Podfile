@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'TranslucentView_Example' do
+  pod 'TranslucentView', :path => '../'
+
+  target 'TranslucentView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
